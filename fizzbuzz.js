@@ -8,11 +8,11 @@ module.exports = function () {
       FizzBuzz.push('FizzBuzz')
     } 
     else if (i % 3 == 0){
-      FizzBuzz.push('Fizz')
+      FizzBuzz.push('Buzz')
     }
     else if (i % 5 == 0)
     {
-      FizzBuzz.push('Buzz')
+      FizzBuzz.push('Fizz')
     } 
     else { 
       FizzBuzz.push(i);
